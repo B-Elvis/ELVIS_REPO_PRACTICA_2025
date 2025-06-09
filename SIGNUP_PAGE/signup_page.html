@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>| <span data-i18n="sign_up">Sign Up</span></title>
+    <link rel="icon" href="/ASSETS/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="../CSS_General_Stylesheet.css" />
+    <link rel="stylesheet" href="../SIGNUP_PAGE/signup_page_styles.css" />
+  </head>
+  <body>
+    <section class="login_section">
+      <div class="login_container">
+        <form action="/signup" method="POST" class="login_form">
+          <h2 data-i18n="sign_up">Sign Up</h2>
+          <div class="full_name">
+            <div class="firstname">
+              <label for="name" data-i18n="full_name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="First Name"
+                data-i18n-placeholder="first_name"
+              />
+            </div>
+            <div class="lastname">
+              <label for="surname" data-i18n="surname">Surname</label>
+              <input
+                type="text"
+                id="surname"
+                name="surname"
+                required
+                placeholder="Last Name"
+                data-i18n-placeholder="last_name"
+              />
+            </div>
+          </div>
+
+          <label for="email" data-i18n="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Your Email Address"
+            data-i18n-placeholder="your_email_address"
+          />
+
+          <label for="password" data-i18n="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            placeholder="Your Password"
+            data-i18n-placeholder="your_password"
+          />
+
+          <div class="checkbox_wrapper">
+            <input type="checkbox" id="agreement" name="agreement" />
+            <label for="agreement" data-i18n="agree_privacy"
+              >Agree With Our Privacy Policy</label
+            >
+          </div>
+
+          <button type="submit" data-i18n="create_account">
+            Create Account
+          </button>
+
+          <div class="social_login">
+            <p data-i18n="or_sign_up_with">Or sign up with:</p>
+            <div class="social_buttons">
+              <button type="button" class="google_btn" data-i18n="google">
+                Google
+              </button>
+              <button type="button" class="facebook_btn" data-i18n="facebook">
+                Facebook
+              </button>
+            </div>
+          </div>
+
+          <p class="login_hint">
+            <span data-i18n="already_have_account"
+              >Already have an account?</span
+            >
+            <a href="/LOGIN_PAGE/login_page.html" data-i18n="sign_in"
+              >Sign in</a
+            >
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <script type="module" src="signup_page_script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "Pizza_ID",
+    "heading": {
+      "ro": "Pizza Italiană",
+      "en": "Italian Pizza"
+    },
+    "subheading": {
+      "ro": "Principalul motiv pentru care ești aici!",
+      "en": "The foremost reason you're here!"
+    }
+  },
+  {
+    "id": "Salad_ID",
+    "heading": {
+      "ro": "Salate & Verdețuri",
+      "en": "Salads & Greens"
+    },
+    "subheading": {
+      "ro": "Pentru o viață mai sănătoasă!",
+      "en": "For a healthier life!"
+    }
+  },
+  {
+    "id": "Soup_ID",
+    "heading": {
+      "ro": "Supe & Ciorbe",
+      "en": "Soups & Broths"
+    },
+    "subheading": {
+      "ro": "Preferatele tuturor anotimpurilor!",
+      "en": "All season favorite!"
+    }
+  },
+  {
+    "id": "Pasta_ID",
+    "heading": {
+      "ro": "Paste",
+      "en": "Pasta"
+    },
+    "subheading": {
+      "ro": "Un gust incredibil, italian!",
+      "en": "An incredible, Italian taste!"
+    }
+  },
+
+  {
+    "id": "Deserts_ID",
+    "heading": {
+      "ro": "Dulciuri & Deserturi",
+      "en": "Sweets & Desserts"
+    },
+    "subheading": {
+      "ro": "N-ai cum să greșești cu dulciurile noastre!",
+      "en": "Cannot go wrong with our sweets!"
+    }
+  },
+
+  {
+    "id": "Drinks_ID",
+    "heading": {
+      "ro": "Băuturi & Răcoritoare",
+      "en": "Drinks & Beverages"
+    },
+    "subheading": {
+      "ro": "N-ai cum să greșești cu băuturile noastre!",
+      "en": "Cannot go wrong with our drinks!"
+    }
+  }
+]

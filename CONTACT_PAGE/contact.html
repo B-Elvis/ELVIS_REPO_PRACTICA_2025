@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>| Contact</title>
+    <link rel="icon" href="../ASSETS/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="../CSS_General_Stylesheet.css" />
+    <link rel="stylesheet" href="../CONTACT_PAGE/contact_page_styles.css" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  </head>
+  <body class="hidden">
+    <main class="contact-main-grid">
+      <div class="contact-grid-container">
+        <!-- Contact Form (Vue) -->
+        <section id="contact-vue-app" class="contact_us_section">
+          <div class="contact_us_card general_container_bordered_rounded">
+            <h2 class="contact_us_title" data-i18n="contact_us">Contact Us</h2>
+            <form @submit.prevent="submitForm" class="contact_us_form">
+              <div class="contact_us_row">
+                <label for="name" data-i18n="name">Name</label>
+                <input id="name" v-model="form.name" type="text" required />
+              </div>
+              <div class="contact_us_row">
+                <label for="email" data-i18n="email">Email</label>
+                <input id="email" v-model="form.email" type="email" required />
+              </div>
+              <div class="contact_us_row">
+                <label for="message" data-i18n="message">Message</label>
+                <textarea
+                  id="message"
+                  v-model="form.message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="contact_us_btn"
+                data-i18n="send_message"
+              >
+                Send Message
+              </button>
+              <div
+                v-if="success"
+                class="contact_us_success"
+                data-i18n="thank_you_contact"
+              >
+                Thank you for contacting us!
+              </div>
+            </form>
+          </div>
+        </section>
+        <!-- Contact Info -->
+        <section class="contact_info_card general_container_bordered_rounded">
+          <h2 class="contact_info_title" data-i18n="contact_information">
+            Contact Information
+          </h2>
+          <ul class="contact_info_list">
+            <li>
+              <span class="contact_info_label" data-i18n="phone">Phone:</span>
+              <a href="tel:+37369990090" class="contact_info_value"
+                >+373 69 990 090</a
+              >
+            </li>
+            <li>
+              <span class="contact_info_label" data-i18n="email">Email:</span>
+              <a href="mailto:banqueta@gways.com" class="contact_info_value"
+                >banqueta@gways.com</a
+              >
+            </li>
+            <li>
+              <span class="contact_info_label" data-i18n="address_chisinau"
+                >Address Chisinau:</span
+              >
+              <span class="contact_info_value">Florilor 32/1, Chisinau</span>
+            </li>
+            <li>
+              <span class="contact_info_label" data-i18n="address_balti"
+                >Address Balti:</span
+              >
+              <span class="contact_info_value">Sperantei 15/6, Balti</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <section class="map_location">
+      <div class="map_title">
+        <h1 data-i18n="find_us_on_map">Find us On Map</h1>
+      </div>
+      <div class="map general_container_bordered_rounded">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21764.703277296667!2d28.86484185!3d47.0090639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c1700b09377%3A0xb2be30290be18925!2sAtrium!5e0!3m2!1sro!2s!4v1748205420784!5m2!1sro!2s"
+          width="800"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <script type="module" src="./contact_page_script.js"></script>
+    <script>
+      const { createApp } = Vue;
+      createApp({
+        data() {
+          return {
+            form: {
+              name: "",
+              email: "",
+              message: "",
+            },
+            success: false,
+          };
+        },
+        methods: {
+          submitForm() {
+            // Here you can send the form data to a server if needed
+            this.success = true;
+            this.form.name = "";
+            this.form.email = "";
+            this.form.message = "";
+            setTimeout(() => (this.success = false), 3000);
+          },
+        },
+      }).mount("#contact-vue-app");
+    </script>
+  </body>
+</html>

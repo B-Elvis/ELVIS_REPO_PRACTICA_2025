@@ -1,0 +1,120 @@
+.card:not(:has(.wishlist_heart.flagged)) {
+  display: none !important;
+}
+.cards-wrapper:not(:has(.wishlist_heart.flagged)) {
+  display: none !important;
+}
+
+.cards:not(:has(.wishlist_heart.flagged)) {
+  display: none !important;
+}
+
+main > section > .cards-heading {
+  border-bottom: none;
+  padding-block: 0em;
+  padding-inline: 0px;
+  position: relative;
+  border: none !important;
+  background-color: transparent !important;
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: none !important;
+  border-radius: 0px;
+
+  .active_expand {
+    display: none;
+  }
+
+  .c-h-wrapper {
+    width: 100%;
+  }
+
+  .c-h-wrapper h1 {
+    position: relative;
+    bottom: 2px;
+    padding-inline: 2rem;
+    background-color: var(--page_primary_color);
+    z-index: 73;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    /* text-decoration: wavy underline var(--button_accent_color); */
+  }
+
+  .c-h-wrapper p {
+    display: none !important;
+  }
+}
+
+main > section > .cards-heading::after {
+  content: "";
+  width: 100%;
+  border: 1px solid var(--button_accent_color);
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  position: absolute;
+  z-index: 72;
+}
+
+main > .menu_header {
+  border-radius: 2rem;
+  padding-top: 0;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+
+  h4 {
+    padding: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--general_border_color);
+    font-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    cursor: pointer;
+    transition: all 220ms;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iIzI5MjkyOSIgdmlld0JveD0iMCAwIDI1NiAyNTYiPjxwYXRoIGQ9Ik0yMTYsNDhIMTc2VjQwYTI0LDI0LDAsMCwwLTI0LTI0SDEwNEEyNCwyNCwwLDAsMCw4MCw0MHY4SDQwYTgsOCwwLDAsMCwwLDE2aDhWMjA4YTE2LDE2LDAsMCwwLDE2LDE2SDE5MmExNiwxNiwwLDAsMCwxNi0xNlY2NGg4YTgsOCwwLDAsMCwwLTE2Wk0xMTIsMTY4YTgsOCwwLDAsMS0xNiwwVjEwNGE4LDgsMCwwLDEsMTYsMFptNDgsMGE4LDgsMCwwLDEtMTYsMFYxMDRhOCw4LDAsMCwxLDE2LDBabTAtMTIwSDk2VjQwYTgsOCwwLDAsMSw4LThoNDhhOCw4LDAsMCwxLDgsOFoiPjwvcGF0aD48L3N2Zz4=);
+  }
+
+  h4.disabled_ew {
+    opacity: 50%;
+  }
+  h4.disabled_ew:hover {
+    background-color: transparent;
+    cursor: default;
+  }
+
+  h4:hover {
+    background-color: rgb(249, 198, 198);
+  }
+}
+
+main > .nav_under {
+  margin: 0px !important;
+}
+main > .nav_under > ul {
+  margin-top: 0px;
+  border-top: none;
+
+  padding-top: 0px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  main > .menu_header {
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+  }
+
+  main > .nav_under > ul {
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+}

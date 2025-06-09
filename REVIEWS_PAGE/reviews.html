@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>| Reviews</title>
+    <link rel="icon" href="/ASSETS/favicon.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="../CSS_General_Stylesheet.css" />
+    <link rel="stylesheet" href="../REVIEWS_PAGE/reviews_page_styles.css" />
+  </head>
+  <body class="hidden">
+    <main
+      id="reviews-main"
+      class="flex flex-col items-center min-h-screen bg-gray-50 py-8"
+    >
+      <div class="cards-heading w-full max-w-2xl text-center mb-8">
+        <h1 data-i18n="leave_a_review_heading" class="text-3xl font-bold mb-2">
+          Leave a review
+        </h1>
+        <p data-i18n="your_review_matters" class="text-gray-600">
+          Your review matters to us
+        </p>
+      </div>
+      <section
+        class="review-section flex flex-col md:flex-row gap-8 w-full max-w-4xl"
+      >
+        <div
+          class="review-form-card bg-white shadow-lg rounded-xl p-8 flex-1 mb-6 md:mb-0"
+        >
+          <h2
+            class="review-title text-xl font-semibold mb-4 text-center"
+            data-i18n="leave_a_review"
+          >
+            Leave a Review
+          </h2>
+          <form id="review-form" class="space-y-4">
+            <input
+              type="text"
+              id="reviewer"
+              class="review-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder="Your name"
+              data-i18n-placeholder="your_name"
+              required
+            />
+            <textarea
+              id="review-text"
+              rows="3"
+              class="review-input w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder="Write your review..."
+              data-i18n-placeholder="write_your_review"
+              required
+            ></textarea>
+            <button
+              type="submit"
+              class="review-btn w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg transition"
+              data-i18n="add_review"
+            >
+              Add Review
+            </button>
+          </form>
+        </div>
+        <div class="review-list-card bg-white shadow-lg rounded-xl p-8 flex-1">
+          <h3
+            class="review-list-title text-lg font-bold mb-4 text-center"
+            data-i18n="reviews"
+          >
+            Reviews
+          </h3>
+          <div id="reviews-list"></div>
+        </div>
+      </section>
+    </main>
+    <div id="footer"></div>
+    <script type="module" src="../REVIEWS_PAGE/reviews_page_script.js"></script>
+  </body>
+</html>

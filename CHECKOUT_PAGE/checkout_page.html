@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>| <span data-i18n="place_order">Finish Order</span></title>
+    <link rel="icon" href="/ASSETS/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="../CSS_General_Stylesheet.css" />
+    <link rel="stylesheet" href="./checkout_page_styles.css" />
+  </head>
+  <body class="hidden">
+    <div class="cards-heading">
+      <h1 data-i18n="finish_your_order">Finish Your Order</h1>
+      <p data-i18n="review_and_checkout">
+        Review Your Purchases And Fill Out The Checkout Form
+      </p>
+    </div>
+    <div class="checkout_container">
+      <div class="checkout-header general_container_bordered_rounded">
+        <div class="ch-first_row">
+          <h2 data-i18n="order_summary">Order Summary</h2>
+          <div class="results_cart_checkout">
+            <h2>
+              <span data-i18n="total_items_label">Items:</span>
+              <span id="nr_items_cart_checkout" class="total_items_value"
+                >0</span
+              >
+            </h2>
+            <h3>
+              <span data-i18n="total_price_label">Total Price:</span>
+              <span id="total_price_cart_checkout" class="total-price-value"
+                >$0</span
+              >
+            </h3>
+          </div>
+        </div>
+        <div class="wrapper_for_middle_part">
+          <div class="s_cart_middle"></div>
+        </div>
+        <button
+          id="back-to-shop"
+          class="btn-secondary"
+          data-i18n="back_to_shop"
+        >
+          Back to Shop
+        </button>
+      </div>
+      <div class="checkout-content">
+        <form id="shipping-form">
+          <div class="checkout-form general_container_bordered_rounded">
+            <h3 data-i18n="shipping_information">Shipping Information</h3>
+
+            <div class="form-group">
+              <label for="full-name" data-i18n="full_name">Full Name</label>
+              <input
+                type="text"
+                id="full-name"
+                placeholder="Elvis Babara"
+                data-i18n-placeholder="full_name"
+                required=""
+              />
+            </div>
+            <div class="form-group">
+              <label for="email" data-i18n="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="elvisbabara@mail.best"
+                data-i18n-placeholder="your_email_address"
+                required=""
+              />
+            </div>
+            <div class="form-group">
+              <label for="address" data-i18n="address">Address</label>
+              <input
+                type="text"
+                id="address"
+                data-i18n-placeholder="address"
+                required=""
+              />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="city" data-i18n="city">City</label>
+                <input
+                  type="text"
+                  id="city"
+                  data-i18n-placeholder="city"
+                  required=""
+                />
+              </div>
+              <div class="form-group">
+                <label for="zip" data-i18n="zip_code">ZIP Code</label>
+                <input
+                  type="text"
+                  id="zip"
+                  data-i18n-placeholder="zip_code"
+                  required=""
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="country" data-i18n="country">Country</label>
+              <select id="country" required="">
+                <option value="" data-i18n="select_country">
+                  Select Country
+                </option>
+                <option value="us" data-i18n="romania">Romania</option>
+                <option value="ca" data-i18n="spain">Spain</option>
+                <option value="uk" data-i18n="hungary">Hungary</option>
+                <option value="au" data-i18n="russia">Russia</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="phone" data-i18n="phone">Phone</label>
+              <input
+                type="tel"
+                id="phone"
+                data-i18n-placeholder="phone"
+                required=""
+              />
+            </div>
+          </div>
+          <div class="checkout-form general_container_bordered_rounded">
+            <h3 data-i18n="payment_information">Payment Information</h3>
+            <div class="form-group">
+              <label for="card-number" data-i18n="card_number"
+                >Card Number</label
+              >
+              <input
+                type="text"
+                id="card-number"
+                placeholder="XXXX XXXX XXXX XXXX"
+                data-i18n-placeholder="card_number"
+                required=""
+              />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="expiry" data-i18n="expiration_date"
+                  >Expiration Date</label
+                >
+                <input
+                  type="text"
+                  id="expiry"
+                  placeholder="MM/YY"
+                  data-i18n-placeholder="expiration_date"
+                  required=""
+                />
+              </div>
+              <div class="form-group">
+                <label for="cvv" data-i18n="cvv">CVV</label>
+                <input
+                  type="text"
+                  id="cvv"
+                  placeholder="XXX"
+                  data-i18n-placeholder="cvv"
+                  required=""
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="card-name" data-i18n="name_on_card"
+                >Name on Card</label
+              >
+              <input
+                type="text"
+                id="card-name"
+                data-i18n-placeholder="name_on_card"
+                required=""
+              />
+            </div>
+            <button id="place-order" data-i18n="place_order">
+              Place Order
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="./checkout_page_script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "denumire_produs": "Margherita",
+    "pret_produs": 5.99,
+    "gramaj_produs": 550,
+    "descriere_produs": "Lorem ipsum dolor",
+    "categorie_produs": "Pizza_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1745031601304-76f032502ff0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 2,
+    "denumire_produs": "Diavola",
+    "pret_produs": 5.5,
+    "gramaj_produs": 550,
+    "descriere_produs": "Lorem ipsum dolor",
+    "categorie_produs": "Pizza_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1745031601304-76f032502ff0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 3,
+    "denumire_produs": "Quattro Stagioni",
+    "pret_produs": 5,
+    "gramaj_produs": 550,
+    "descriere_produs": "Lorem ipsum dolor",
+    "categorie_produs": "Pizza_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1745031601304-76f032502ff0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 4,
+    "denumire_produs": "Bianca",
+    "pret_produs": 5,
+    "gramaj_produs": 550,
+    "descriere_produs": "Lorem ipsum dolor",
+    "categorie_produs": "Pizza_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1745031601304-76f032502ff0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 5,
+    "denumire_produs": "Mario",
+    "pret_produs": 6,
+    "gramaj_produs": 550,
+    "descriere_produs": "Lorem ipsum dolor",
+    "categorie_produs": "Pizza_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1745031601304-76f032502ff0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 6,
+    "denumire_produs": "Capriciosa",
+    "pret_produs": 6.5,
+    "gramaj_produs": 550,
+    "descriere_produs": "Lorem ipsum dolor",
+    "categorie_produs": "Pizza_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1745031601304-76f032502ff0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 7,
+    "denumire_produs": "Meat Master",
+    "pret_produs": 5.99,
+    "gramaj_produs": 550,
+    "descriere_produs": "Lorem ipsum dolor",
+    "categorie_produs": "Pizza_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1745031601304-76f032502ff0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 8,
+    "denumire_produs": "Quattro Formaggi",
+    "pret_produs": 7.5,
+    "gramaj_produs": 500,
+    "descriere_produs": "Lorem ipsum dolor",
+    "categorie_produs": "Pizza_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1745031601304-76f032502ff0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 9,
+    "denumire_produs": "Caesar Salad",
+    "pret_produs": 4.5,
+    "gramaj_produs": 350,
+    "descriere_produs": "Salată clasică cu pui, parmezan și crutoane.",
+    "categorie_produs": "Salad_ID",
+    "tip_promotie_produs": "Recomandat",
+    "imagine_produs": "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?q=80&w=2887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 10,
+    "denumire_produs": "Greek Salad",
+    "pret_produs": 4,
+    "gramaj_produs": 300,
+    "descriere_produs": "Brânză feta, măsline, roșii și castraveți.",
+    "categorie_produs": "Salad_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?q=80&w=2887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 11,
+    "denumire_produs": "Cobb Salad",
+    "pret_produs": 5,
+    "gramaj_produs": 370,
+    "descriere_produs": "Mix de legume, ou, bacon și brânză albastră.",
+    "categorie_produs": "Salad_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?q=80&w=2887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 12,
+    "denumire_produs": "Tuna Salad",
+    "pret_produs": 6,
+    "gramaj_produs": 340,
+    "descriere_produs": "Ton, porumb, roșii cherry și salată verde.",
+    "categorie_produs": "Salad_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?q=80&w=2887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 13,
+    "denumire_produs": "Avocado Bowl",
+    "pret_produs": 5.5,
+    "gramaj_produs": 330,
+    "descriere_produs": "Avocado, quinoa, năut și dressing lime.",
+    "categorie_produs": "Salad_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?q=80&w=2887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 14,
+    "denumire_produs": "Detox Salad",
+    "pret_produs": 6.99,
+    "gramaj_produs": 320,
+    "descriere_produs": "Mix de legume verzi, morcov și semințe.",
+    "categorie_produs": "Salad_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?q=80&w=2887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 15,
+    "denumire_produs": "Mozzarella Caprese",
+    "pret_produs": 7,
+    "gramaj_produs": 310,
+    "descriere_produs": "Mozzarella proaspătă, roșii și busuioc.",
+    "categorie_produs": "Salad_ID",
+    "tip_promotie_produs": "Popular",
+    "imagine_produs": "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?q=80&w=2887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 16,
+    "denumire_produs": "Chickpea Delight",
+    "pret_produs": 5,
+    "gramaj_produs": 300,
+    "descriere_produs": "Salată cu năut, ceapă roșie și pătrunjel.",
+    "categorie_produs": "Salad_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?q=80&w=2887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 17,
+    "denumire_produs": "Supă de pui cu tăieței",
+    "pret_produs": 4.99,
+    "gramaj_produs": 400,
+    "descriere_produs": "Supă clară de pui cu legume și tăieței.",
+    "categorie_produs": "Soup_ID",
+    "tip_promotie_produs": "Clasic",
+    "imagine_produs": "https://images.unsplash.com/photo-1636044990152-53fc0e6a3b45?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 18,
+    "denumire_produs": "Ciorbă de burtă",
+    "pret_produs": 5.99,
+    "gramaj_produs": 450,
+    "descriere_produs": "Tradițională cu smântână și ardei iute.",
+    "categorie_produs": "Soup_ID",
+    "tip_promotie_produs": "Recomandat",
+    "imagine_produs": "https://images.unsplash.com/photo-1636044990152-53fc0e6a3b45?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 19,
+    "denumire_produs": "Supă cremă de ciuperci",
+    "pret_produs": 5.45,
+    "gramaj_produs": 400,
+    "descriere_produs": "Aromată, fină, servită cu crutoane.",
+    "categorie_produs": "Soup_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1636044990152-53fc0e6a3b45?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 20,
+    "denumire_produs": "Ciorbă de legume",
+    "pret_produs": 5.2,
+    "gramaj_produs": 400,
+    "descriere_produs": "Ușoară și sănătoasă, cu legume de sezon.",
+    "categorie_produs": "Soup_ID",
+    "tip_promotie_produs": "Vegetarian",
+    "imagine_produs": "https://images.unsplash.com/photo-1636044990152-53fc0e6a3b45?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 21,
+    "denumire_produs": "Supă cremă de roșii",
+    "pret_produs": 5.75,
+    "gramaj_produs": 390,
+    "descriere_produs": "Roșii coapte și busuioc proaspăt.",
+    "categorie_produs": "Soup_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1636044990152-53fc0e6a3b45?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 22,
+    "denumire_produs": "Supă miso",
+    "pret_produs": 6.5,
+    "gramaj_produs": 350,
+    "descriere_produs": "Rețetă japoneză cu tofu și alge.",
+    "categorie_produs": "Soup_ID",
+    "tip_promotie_produs": "Exotic",
+    "imagine_produs": "https://images.unsplash.com/photo-1636044990152-53fc0e6a3b45?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 23,
+    "denumire_produs": "Ciorbă de fasole",
+    "pret_produs": 5,
+    "gramaj_produs": 420,
+    "descriere_produs": "Fasole albă cu afumătură și ceapă roșie.",
+    "categorie_produs": "Soup_ID",
+    "tip_promotie_produs": "Tradițional",
+    "imagine_produs": "https://images.unsplash.com/photo-1636044990152-53fc0e6a3b45?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 24,
+    "denumire_produs": "Supă de linte",
+    "pret_produs": 5.99,
+    "gramaj_produs": 400,
+    "descriere_produs": "Proteine vegetale și condimente orientale.",
+    "categorie_produs": "Soup_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1636044990152-53fc0e6a3b45?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 25,
+    "denumire_produs": "Spaghetti Bolognese",
+    "pret_produs": 4.55,
+    "gramaj_produs": 500,
+    "descriere_produs": "Sos de carne, roșii și ierburi aromatice.",
+    "categorie_produs": "Pasta_ID",
+    "tip_promotie_produs": "Popular",
+    "imagine_produs": "https://plus.unsplash.com/premium_photo-1705338026271-f617d801fb0c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 26,
+    "denumire_produs": "Penne Arrabbiata",
+    "pret_produs": 6.25,
+    "gramaj_produs": 480,
+    "descriere_produs": "Picant și savuros, cu usturoi și chili.",
+    "categorie_produs": "Pasta_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://plus.unsplash.com/premium_photo-1705338026271-f617d801fb0c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 27,
+    "denumire_produs": "Tagliatelle Alfredo",
+    "pret_produs": 7.5,
+    "gramaj_produs": 520,
+    "descriere_produs": "Sos alb cremos, unt și parmezan.",
+    "categorie_produs": "Pasta_ID",
+    "tip_promotie_produs": "Recomandat",
+    "imagine_produs": "https://plus.unsplash.com/premium_photo-1705338026271-f617d801fb0c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 28,
+    "denumire_produs": "Linguine cu creveți",
+    "pret_produs": 4.25,
+    "gramaj_produs": 530,
+    "descriere_produs": "Fructe de mare, usturoi și ulei de măsline.",
+    "categorie_produs": "Pasta_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://plus.unsplash.com/premium_photo-1705338026271-f617d801fb0c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 29,
+    "denumire_produs": "Tortellini cu ricotta",
+    "pret_produs": 4.2,
+    "gramaj_produs": 490,
+    "descriere_produs": "Paste umplute cu ricotta și spanac.",
+    "categorie_produs": "Pasta_ID",
+    "tip_promotie_produs": "Vegetarian",
+    "imagine_produs": "https://plus.unsplash.com/premium_photo-1705338026271-f617d801fb0c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 30,
+    "denumire_produs": "Fusilli Pesto",
+    "pret_produs": 5.65,
+    "gramaj_produs": 470,
+    "descriere_produs": "Sos verde de busuioc și muguri de pin.",
+    "categorie_produs": "Pasta_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://plus.unsplash.com/premium_photo-1705338026271-f617d801fb0c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 31,
+    "denumire_produs": "Ravioli cu carne",
+    "pret_produs": 7.45,
+    "gramaj_produs": 500,
+    "descriere_produs": "Paste umplute cu carne, în sos roșu.",
+    "categorie_produs": "Pasta_ID",
+    "tip_promotie_produs": "Clasic",
+    "imagine_produs": "https://plus.unsplash.com/premium_photo-1705338026271-f617d801fb0c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 32,
+    "denumire_produs": "Mac & Cheese",
+    "pret_produs": 7.99,
+    "gramaj_produs": 450,
+    "descriere_produs": "Brânză cheddar topită și paste scurte.",
+    "categorie_produs": "Pasta_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://plus.unsplash.com/premium_photo-1705338026271-f617d801fb0c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 33,
+    "denumire_produs": "Sprite",
+    "pret_produs": 2.15,
+    "gramaj_produs": 1.5,
+    "descriere_produs": "Bautura Racoritoare.",
+    "categorie_produs": "Drinks_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://cdn.alphamega.com.cy/Admin/Public/GetImage.ashx?Width=800&Height=800&Crop=5&DoNotUpscale=True&FillCanvas=True&Image=/Files/Images/Ecom/Products/108155.jpg&AlternativeImage=/Images/missing_image.jpg"
+  },
+  {
+    "id": 34,
+    "denumire_produs": "Fanta",
+    "pret_produs": 2.15,
+    "gramaj_produs": 1.5,
+    "descriere_produs": "Bautura Racoritoare.",
+    "categorie_produs": "Drinks_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://cdn.alphamega.com.cy/Admin/Public/GetImage.ashx?Width=800&Height=800&Crop=5&DoNotUpscale=True&FillCanvas=True&Image=/Files/Images/Ecom/Products/108164.jpg&AlternativeImage=/Images/missing_image.jpg"
+  },
+  {
+    "id": 35,
+    "denumire_produs": "Coca Cola",
+    "pret_produs": 2.15,
+    "gramaj_produs": 1.5,
+    "descriere_produs": "Bautura Racoritoare.",
+    "categorie_produs": "Drinks_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://cdn.alphamega.com.cy/Admin/Public/GetImage.ashx?Width=800&Height=800&Crop=5&DoNotUpscale=True&FillCanvas=True&Image=/Files/Images/Ecom/Products/108140.jpg&AlternativeImage=/Images/missing_image.jpg"
+  },
+  {
+    "id": 36,
+    "denumire_produs": "Schweppes",
+    "pret_produs": 2.15,
+    "gramaj_produs": 1.5,
+    "descriere_produs": "Bautura Racoritoare.",
+    "categorie_produs": "Drinks_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://cdn.alphamega.com.cy/Admin/Public/GetImage.ashx?Width=800&Height=800&Crop=5&DoNotUpscale=True&FillCanvas=True&Image=/Files/Images/Ecom/Products/108185.jpg&AlternativeImage=/Images/missing_image.jpg"
+  },
+  {
+    "id": 37,
+    "denumire_produs": "Cake",
+    "pret_produs": 5.1,
+    "gramaj_produs": 450,
+    "descriere_produs": "Tort.",
+    "categorie_produs": "Deserts_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1694837493582-221c978f6bc9?q=80&w=3125&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 38,
+    "denumire_produs": "Eclaire",
+    "pret_produs": 5.1,
+    "gramaj_produs": 450,
+    "descriere_produs": "Ecler dulce",
+    "categorie_produs": "Deserts_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1694837493582-221c978f6bc9?q=80&w=3125&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 39,
+    "denumire_produs": "Eclaire",
+    "pret_produs": 5.1,
+    "gramaj_produs": 450,
+    "descriere_produs": "Ecler dulce",
+    "categorie_produs": "Deserts_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1694837493582-221c978f6bc9?q=80&w=3125&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 40,
+    "denumire_produs": "Eclaire",
+    "pret_produs": 5.1,
+    "gramaj_produs": 450,
+    "descriere_produs": "Ecler dulce",
+    "categorie_produs": "Deserts_ID",
+    "tip_promotie_produs": "Nou",
+    "imagine_produs": "https://images.unsplash.com/photo-1694837493582-221c978f6bc9?q=80&w=3125&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]

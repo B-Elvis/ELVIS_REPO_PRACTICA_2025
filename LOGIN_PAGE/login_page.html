@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>| <span data-i18n="login_title">Log In</span></title>
+    <link rel="icon" href="/ASSETS/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="../CSS_General_Stylesheet.css" />
+    <link rel="stylesheet" href="./login_page_styles.css" />
+  </head>
+  <body>
+    <section class="login_section">
+      <div class="login_container">
+        <form action="/login" method="POST" class="login_form">
+          <h2 data-i18n="login_title">Log In</h2>
+
+          <label for="email" data-i18n="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Your Email Address"
+            data-i18n-placeholder="your_email_address"
+          />
+
+          <label for="password" data-i18n="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            placeholder="Your Password"
+            data-i18n-placeholder="your_password"
+          />
+
+          <div class="checkbox_wrapper">
+            <input type="checkbox" id="remember" name="remember" />
+            <label for="remember" data-i18n="keep_me_logged_in"
+              >Keep me logged in</label
+            >
+          </div>
+
+          <button type="submit" data-i18n="continue_btn">Continue</button>
+
+          <p class="login_hint">
+            <span data-i18n="dont_have_account">Don't have an account?</span>
+            <a href="/SIGNUP_PAGE/signup_page.html" data-i18n="sign_up"
+              >Sign Up</a
+            >
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <script type="module" src="./login_page_script.js"></script>
+  </body>
+</html>

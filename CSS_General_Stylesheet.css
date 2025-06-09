@@ -1,0 +1,148 @@
+/* <<< --- LOADED CUSTOM FONTS --- >>> */
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Short+Stack&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Short+Stack&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* <<< --- ROOT VARIABLES DECLARATION --- >>> */
+
+:root {
+  /* PAGE GUTTER */
+  --padding_big: 5rem;
+  --padding_small: 1rem;
+  /* PAGE COLORS */
+  --page_primary_color: #f8f8f8;
+  --page_secondary_color: #ffffff;
+  --ordinary_text_color: #121212;
+  --general_border_color: lightgray;
+  --button_accent_color: #425729;
+  --general_box_shadow_color: rgba(91, 91, 91, 0.271);
+  --general_accent_color: rgb(230, 239, 224);
+  --general_accent_color_hover: rgb(153, 176, 137);
+  --card_hover_color: rgb(65, 79, 60);
+  --card_border_color: #dfdfdf;
+  --general_radial_gradient_color: rgb(134, 144, 119);
+  --footer_bg_color: #c6ccb7;
+  --text_accent_color: rgb(121, 132, 69);
+  --icon_color: #e8e8e8e8;
+  /* FONT WORK */
+  /* ICON WORK */
+  --theme_icon: url(https://static-00.iconduck.com/assets.00/mode-dark-icon-2048x2037-ue3955wk.png);
+}
+
+/* <<< --- DARK MODE CLASS --- >>> */
+
+.dark_mode {
+  --page_primary_color: #141414;
+  --page_secondary_color: #202020;
+  --ordinary_text_color: #f8f8f8;
+  --general_border_color: rgb(60, 60, 60);
+  --theme_icon: url(https://static.thenounproject.com/png/979909-200.png);
+  --button_accent_color: #b5ca9d;
+  --general_box_shadow_color: rgba(19, 19, 19, 0.27);
+  --general_accent_color: rgb(55, 55, 55);
+  --general_accent_color_hover: black;
+  --card_hover_color: rgb(176, 222, 151);
+  --card_border_color: rgb(47, 47, 47);
+  --general_radial_gradient_color: rgb(41, 42, 40);
+  --footer_bg_color: #33372a;
+  --text_accent_color: rgb(196, 255, 92);
+  --icon_color: #434343e8;
+
+  .first_afcon {
+    filter: invert();
+  }
+
+  main > section > .cards-heading {
+    padding-inline: 1.5em;
+    background-color: #212121;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+    border: 1px solid #3c3c3c42;
+    box-shadow: 8px 8px 28px -2px #0f0f0fba, -8px -8px 18px #1e1e1e;
+  }
+}
+
+/* <<< --- DEFAULT SELECTORS --- >>> */
+
+h1,
+h2,
+h3,
+h4,
+p {
+  color: var(--ordinary_text_color);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--page_primary_color);
+  font-family: "Quicksand";
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+body.visible {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transition: opacity 0.25s ease-in !important;
+}
+
+body.hidden {
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+body.hidden * {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* <<< --- GENERAL CUSTOM CLASSES --- >>> */
+
+.general_container_bordered_rounded {
+  border: 1px solid var(--general_border_color);
+  border-radius: 2rem;
+  padding: 1.5rem;
+}
+
+.padding_big {
+  margin: var(--padding_big);
+}
+
+/* <<< --- GENERAL MEDIA QUERIES --- >>> */
+
+@media (max-width: 1174px) {
+  :root {
+    --padding_big: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --padding_big: 1rem;
+  }
+
+  .general_container_bordered_rounded {
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+  }
+}
