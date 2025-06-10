@@ -202,7 +202,7 @@ export function createNavbarComponent() {
       });
     });
   }
-    const accountBtn = Footer.querySelector(".nav_all ul > li:last-child a");
+    const accountBtn = document.querySelector(".nav_all ul > li:last-child a");
   if (accountBtn) {
     accountBtn.addEventListener("click", function (e) {
       e.preventDefault();
