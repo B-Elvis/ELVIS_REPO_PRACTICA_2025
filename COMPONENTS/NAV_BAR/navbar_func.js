@@ -30,7 +30,7 @@ export function createNavbarComponent() {
           <a href="../ABOUT_PAGE/about.html" data-i18n="about_us">About Us</a>
           <a href="../REVIEWS_PAGE/reviews.html" data-i18n="reviews">Reviews</a>
           <a href="../CONTACT_PAGE/contact.html">Contact</a>
-          <a href="../PROFILE_PAGE/profile.html" data-i18n="account_c">Profile</a>
+          <a href="../PROFILE_PAGE/profile.html" data-i18n="account">Profile</a>
 
         </ul>
         <div class="right-side">
