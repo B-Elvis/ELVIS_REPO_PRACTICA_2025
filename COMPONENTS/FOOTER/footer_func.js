@@ -110,11 +110,11 @@ export function createFooterComponent() {
       <div class="underfooter">
         
         <ul class="uf_bttns">
-          <li><a href="/MENU_PAGE/menu_page.html" data-i18n="menu">MENU</a></li>
-          <li><a href="/ABOUT_PAGE/about_page.html" data-i18n="about_us">ABOUT US</a></li>
-          <li><a href="/REVIEWS_PAGE/reviews.html" data-i18n="reviews">REVIEWS</a></li>
-          <li><a href="/CONTACT_PAGE/contact_page.html" data-i18n="contact_us">CONTACT</a></li>
-          <li><a href="" data-i18n="account">ACCOUNT</a></li>
+          <li><a href="../MENU_PAGE/menu_page.html" data-i18n="menu">MENU</a></li>
+          <li><a href="../ABOUT_PAGE/about_page.html" data-i18n="about_us">ABOUT US</a></li>
+          <li><a href="../REVIEWS_PAGE/reviews.html" data-i18n="reviews">REVIEWS</a></li>
+          <li><a href="../CONTACT_PAGE/contact_page.html" data-i18n="contact_us">CONTACT</a></li>
+          <li><a href="../PROFILE_PAGE/profile.html" data-i18n="account">ACCOUNT</a></li>
         </ul>
 
         <div class="rsuf">
