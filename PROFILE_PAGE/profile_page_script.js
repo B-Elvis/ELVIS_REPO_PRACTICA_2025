@@ -162,7 +162,7 @@ function updateProfileCard() {
 }
 
 if (!user) {
-  main.innerHTML = `<div class="profile-card"><h2>Not logged in</h2><a href="/LOGIN_PAGE/login_page.html">Go to Login</a></div>`;
+  main.innerHTML = `<div class="profile-card"><h2>Not logged in</h2><a href="../LOGIN_PAGE/login_page.html">Go to Login</a></div>`;
 }
 
 // Adaugă main înainte de footer (ca pe celelalte pagini)
