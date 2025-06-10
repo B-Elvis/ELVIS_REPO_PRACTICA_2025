@@ -27,5 +27,5 @@ form.addEventListener("submit", function (e) {
   users.push({ name, surname, email, password });
   localStorage.setItem("users", JSON.stringify(users));
   localStorage.setItem("loggedInUser", email);
-  window.location.href = "/PROFILE_PAGE/profile.html";
+  window.location.href = "../PROFILE_PAGE/profile.html";
 });
