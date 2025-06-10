@@ -190,9 +190,9 @@ export function createFooterComponent() {
       e.preventDefault();
       const logged = localStorage.getItem("loggedInUser");
       if (logged) {
-        window.location.href = "/PROFILE_PAGE/profile.html";
+        window.location.href = "../PROFILE_PAGE/profile.html";
       } else {
-        window.location.href = "/LOGIN_PAGE/login_page.html";
+        window.location.href = "../LOGIN_PAGE/login_page.html";
       }
     });
   }
