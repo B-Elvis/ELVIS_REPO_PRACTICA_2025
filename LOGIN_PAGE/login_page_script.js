@@ -20,5 +20,5 @@ form.addEventListener("submit", function (e) {
   }
 
   localStorage.setItem("loggedInUser", email);
-  window.location.href = "/PROFILE_PAGE/profile.html";
+  window.location.href = "../PROFILE_PAGE/profile.html";
 });
