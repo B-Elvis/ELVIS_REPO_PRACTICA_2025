@@ -126,7 +126,7 @@ function updateProfileCard() {
 
   document.getElementById("logout-btn").onclick = function () {
     localStorage.removeItem("loggedInUser");
-    window.location.href = "/LOGIN_PAGE/login_page.html";
+    window.location.href = "../LOGIN_PAGE/login_page.html";
   };
 
   document.getElementById("profile-form").onsubmit = function (e) {
